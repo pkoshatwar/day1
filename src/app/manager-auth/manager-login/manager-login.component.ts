@@ -19,5 +19,6 @@ export class ManagerLoginComponent {
     type === 'add'?this.count++:this.count--;
     
   }
+
   
 }
