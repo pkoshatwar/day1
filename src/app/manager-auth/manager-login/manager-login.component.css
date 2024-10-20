@@ -1,0 +1,11 @@
+.minus{
+    
+    color: Red;
+    background-color: beige;
+    font-size: 3ch;
+}
+.add{
+    color: greenyellow;
+    background-color: rgb(104, 28, 28);
+    font-size: 2ch;
+}
