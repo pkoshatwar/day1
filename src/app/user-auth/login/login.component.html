@@ -1,0 +1,16 @@
+<h2>login works!</h2>
+<button (click)="getName('Prathamesh','Koshatwar')">Login</button>
+
+<br><br>
+<input type="text" #key (keyup)="getEvent(key.value)" placeholder="This is key up"/>
+
+<br><br>
+<input type="text" #key1 (keydown)="getEvent(key1.value)" placeholder="This is key down"/>
+
+<br><br>
+<input type="text" #key2 (keypress)="getEvent(key2.value)" placeholder="This is key press"/>
+
+<br><br>
+<input type="text" #key3 (blur)="getEvent(key3.value)" placeholder="This is key blur"/>
+
+<h2 (mouseover)="getEvent('this is mouseover')">Check mouse over</h2>
