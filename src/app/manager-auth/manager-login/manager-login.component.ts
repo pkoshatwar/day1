@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class ManagerLoginComponent {
   title ='Manager Login';
   displayvalue =''
+  display=''
+  count1=0
   count=0
   getValue(val:string){
     console.warn(val);
@@ -20,5 +22,9 @@ export class ManagerLoginComponent {
     
   }
 
+  
+  counter1(type:string){
+    type === 'add1'?this.count1++:this.count1--;
+  }
   
 }
