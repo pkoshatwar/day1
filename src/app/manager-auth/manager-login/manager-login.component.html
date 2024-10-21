@@ -13,3 +13,8 @@
 <p>Count is : {{count1}}</p>
 <button class="add1" (click)="counter1('add1')">Add ++ </button>
 <p>this is to check</p>
+
+<h2>Property binding</h2>
+<input type="text" name="name" placeholder="username" value="{{name}}" disabled={{disable}}>
+<br><br>
+<input type="text" name="name" placeholder="username" [value]=name [disabled]=disable>

@@ -27,4 +27,6 @@ export class ManagerLoginComponent {
     type === 'add1'?this.count1++:this.count1--;
   }
   
+  name="pk"
+  disable=false;
 }
