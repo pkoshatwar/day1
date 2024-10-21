@@ -18,3 +18,14 @@
 <input type="text" name="name" placeholder="username" value="{{name}}" disabled={{disable}}>
 <br><br>
 <input type="text" name="name" placeholder="username" [value]=name [disabled]=disable>
+
+<h1>This is If else </h1>
+<h2 *ngIf="show =='yes'; then ifBlock else elseBlock"></h2>
+<ng-template #ifBlock>
+    <h3>this is if block Eternal solutions</h3>
+
+</ng-template>
+
+<ng-template #elseBlock>
+    <h1>this is Else block</h1>
+</ng-template>

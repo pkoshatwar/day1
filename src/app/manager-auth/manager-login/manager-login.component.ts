@@ -29,4 +29,6 @@ export class ManagerLoginComponent {
   
   name="pk"
   disable=false;
+
+  show = "yesd"; 
 }
