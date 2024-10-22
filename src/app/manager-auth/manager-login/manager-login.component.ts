@@ -32,8 +32,9 @@ export class ManagerLoginComponent {
   disable=false;
 
   show = "yesd"; 
-
+//else-if or multiple conditions
   color = "red";
-
+//Switch Case
+  switchColor="brown"
  
 }
