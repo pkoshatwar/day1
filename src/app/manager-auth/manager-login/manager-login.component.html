@@ -29,3 +29,18 @@
 <ng-template #elseBlock>
     <h1>this is Else block</h1>
 </ng-template>
+
+
+<h1>Multiple condition or else if</h1>
+
+<ng-template [ngIf]="color==='yellow'">
+    <h2 style="color: yellow;">Color is Yellow</h2>
+</ng-template>
+
+<ng-template [ngIf]="color==='red'">
+    <h2 style="color: red;">Color is Red</h2>
+</ng-template>
+
+<ng-template [ngIf]="color==='blue'">
+    <h2 style="color: blue;">Color is Blue</h2>
+</ng-template>

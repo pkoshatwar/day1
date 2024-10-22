@@ -11,6 +11,7 @@ export class ManagerLoginComponent {
   display=''
   count1=0
   count=0
+  
   getValue(val:string){
     console.warn(val);
     this.displayvalue=val;
@@ -31,4 +32,8 @@ export class ManagerLoginComponent {
   disable=false;
 
   show = "yesd"; 
+
+  color = "red";
+
+ 
 }
