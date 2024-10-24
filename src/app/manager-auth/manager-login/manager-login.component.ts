@@ -37,4 +37,13 @@ export class ManagerLoginComponent {
 //Switch Case
   switchColor="brown"
  
+//For Loop
+  user =["Prathamesh","Rohit","Rohan","Tushar","Yash"]
+  userdetails=[
+  {username:"Prathamesh", contact:"85296"},
+  {username:"Rohit", contact:"85296"},
+  {username:"Rohan", contact:"85262"},
+  {username:"Tushar", contact:"98474"},
+  {username:"Yash", contact:"57477"},
+  ]
 }
