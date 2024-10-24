@@ -46,4 +46,14 @@ export class ManagerLoginComponent {
   {username:"Tushar", contact:"98474"},
   {username:"Yash", contact:"57477"},
   ]
+
+//nested for loop
+
+users=[
+{username:"Prakash", contact:"85296",socialmedia:["youtube","facebook"]},
+{username:"Rajesh", contact:"85296",socialmedia:["linkedIn","twitter"]},
+{username:"Shyam", contact:"85262",socialmedia:["twitch","facebook"]},
+{username:"Baburao", contact:"98474",socialmedia:["youtube","Instagram"]},
+{username:"Raju", contact:"57477",socialmedia:["snapchat","telegram"]},
+]
 }

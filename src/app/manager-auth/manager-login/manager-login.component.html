@@ -62,4 +62,14 @@
 
 <h3 *ngFor="let item of user">{{item}}</h3>
 
-<h3 *ngFor="let item of userdetails">Name is {{item.username}}&nbsp;&nbsp;&nbsp;Mob No. {{item.contact}}</h3>
+<h3 *ngFor="let item of userdetails">Name is {{item.username}} /// Mob No. {{item.contact}}</h3>
+
+<h1>Nested For loop</h1>
+    <ul *ngFor="let user of users">
+        <li>Name : {{user.username}}</li>
+        <li>Mob. No. : {{user.contact}}</li>
+        <li style="font-weight:bold ;">Social Accounts</li>
+        <ul *ngFor="let social of user.socialmedia">
+            <li>{{social}}</li>
+        </ul>
+    </ul>
