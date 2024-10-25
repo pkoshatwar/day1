@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { AdminAuthModule } from './admin-auth/admin-auth.module';
 import { EmployeeAuthModule } from './employee-auth/employee-auth.module';
 import { ManagerAuthModule } from './manager-auth/manager-auth.module';
+import { HeaderModule } from './header/header.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ManagerAuthModule } from './manager-auth/manager-auth.module';
     UserAuthModule,
     AdminAuthModule,
     EmployeeAuthModule,
-    ManagerAuthModule
+    ManagerAuthModule,
+    HeaderModule
   ],
 
   providers: [],
