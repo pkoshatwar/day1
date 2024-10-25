@@ -56,4 +56,12 @@ users=[
 {username:"Baburao", contact:"98474",socialmedia:["youtube","Instagram"]},
 {username:"Raju", contact:"57477",socialmedia:["snapchat","telegram"]},
 ]
+
+// Style / Dynamic Binding
+color1 = "Red";
+bgColor="Skyblue"
+updateColor(){
+  this.color1="green"
+  this.bgColor="Yellow"
+}
 }
